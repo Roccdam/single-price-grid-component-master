@@ -4,15 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'karla', sans-serif;
     background-color: hsl(218, 22%, 67%);
 }
+
 .wrapper{
     width: 90%;
     margin: auto;
     margin-top: 10px;
 }
+
 .border1{
     background-color: hsl(204, 43%, 93%);
     padding: 20px;
@@ -20,18 +23,23 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
 .border1 h2{
     color: hsl(179, 62%, 43%);
 }
+
 .border1 h3{
     color: hsl(71, 73%, 54%);
 }
+
 h2{
     padding: 15px 0;
 }
+
 h3{
     padding: 10px 0;
 }
+
 p{
     font-size: 16px;
     line-height: 25px;
@@ -46,17 +54,21 @@ p{
    
     color: hsl(204, 43%, 93%);
 }
+
 .sub-plan{
     display: flex;
 }
+
 .amount{
     font-weight: 700;
     font-size: x-large;
 }
+
 .timeframe{
     padding: 5px;
     color: hsl(218, 22%, 67%);
 }
+
 button{
     background-color: hsl(71, 73%, 54%);
     padding: 20px;
@@ -67,6 +79,7 @@ button{
     color:hsl(204, 43%, 93%) ;
     cursor: pointer;
 }
+
 .border3{
     background: hsl(179, 50%, 48%);
     padding: 20px;
@@ -75,10 +88,12 @@ button{
     border-bottom-right-radius: 5px;
     padding-bottom: 25px;
 }
+
 li{
     list-style-type: none;
     line-height: 1.3;
 }
+
 @media only screen and (min-width:600px) {
     .wrapper{
         width: 60%;
